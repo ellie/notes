@@ -1,6 +1,16 @@
 # PostgreSQL
 
+- `pg_ctl init -D path` - init new database + config at `path`
+- `pg_hba.conf` - configure host based auth
+- `pg_ident.conf` - map system users to database users
+- `postgresql.conf` - all the other config changes
+
 ## Snippets
+
+### Commands
+
+- `\l` list databases
+- `\c dbname` connect to database as current user
 
 ### Monitoring replication slots
 ```
