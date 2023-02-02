@@ -12,6 +12,13 @@
 - `\l` list databases
 - `\c dbname` connect to database as current user
 
+
+### Get database size
+
+```
+SELECT pg_size_pretty(pg_database_size('database name'));
+```
+
 ### Monitoring replication slots
 ```
 SELECT * FROM pg_replication_slots;
