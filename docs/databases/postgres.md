@@ -12,6 +12,10 @@
 - `\l` list databases
 - `\c dbname` connect to database as current user
 
+### Check for waiting locks
+```
+select relation::regclass, * from pg_locks where not granted;
+```
 
 ### Get database size
 
