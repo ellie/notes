@@ -1,6 +1,8 @@
 ---
 permalink: tools/jq
 date: 2023-09-01
+tags:
+  - tool
 ---
 # jq
 
