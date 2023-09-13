@@ -1,6 +1,6 @@
 ---
 title: Ellie's Notes
-date: 2023-09-01
+date: 0202-09-01
 ---
 
 
@@ -23,7 +23,7 @@ Here I am trying to maintain a personal wiki, or a <i>second brain</i>. I often 
 
 This site is constantly shifting, but here are some things you may be interested in
 - [Posts](/posts), a selection of my longer-form writing and thoughts
-- [Projects](/projects) - over the years I've built a lot of things, but the main two I'm known for are my [[ipod]] and [[atuin]]. 
+- [Projects](/projects) - over the years I've built a lot of things, but the main two I'm known for are my [[ipod]] and [[atuin | Atuin]]. 
 - [Life](/life), where I'm writing about my travels, adventures, and life in general
 - I also keep some notes on [programming](/programming), [infra](/infra), and [tools](/tools). Have an explore!
 

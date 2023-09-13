@@ -2,11 +2,11 @@
 permalink: programming/rust
 tags:
   - rust
-title: Rust snippets
+title: Rust
 date: 2023-09-01
 ---
 ## Projects
-- [Atuin](atuin.md)
+- [[atuin | Atuin]]
 ## Cargo
 ### Run just integration tests
 ```
