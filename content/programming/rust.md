@@ -6,7 +6,7 @@ title: Rust snippets
 date: 2023-09-01
 ---
 ## Projects
-- [Atuin](/projects/atuin)
+- [Atuin](atuin.md)
 ## Cargo
 ### Run just integration tests
 ```
