@@ -1,5 +1,5 @@
 ---
-title: Welcome! 👋
+title: Ellie's Notes
 date: 0202-09-01
 ---
 
