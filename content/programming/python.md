@@ -3,7 +3,7 @@ permalink: programming/python
 tags:
   - python
   - evergreen
-title: Python snippets
+title: Python
 date: 2023-09-01
 ---
 I don't spend as much time building actual large projects in Python any more (though I was paid to write Python for a few years in my early career). These days it's mostly just for random glue scripts on a variety of systems. 

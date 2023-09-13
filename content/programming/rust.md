@@ -2,6 +2,7 @@
 permalink: programming/rust
 tags:
   - rust
+  - evergreen
 title: Rust
 date: 2023-09-01
 ---

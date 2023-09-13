@@ -1,13 +1,10 @@
 ---
-title: Ellie's Notes
+title: Welcome! 👋
 date: 0202-09-01
 ---
 
-
 <div class="welcome">
 <div>
-
-# 👋  Welcome!
 
 My name is Ellie Huxtable. I'm a software/infrastructure engineer, and am at my happiest when I'm building <i>something cool</i>. I love an adventure, and if I'm not at a computer there's a good chance I'm riding a motorcycle.
 
