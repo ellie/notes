@@ -1,1 +1,24 @@
 // put your custom CSS here!
+p, li {
+  font-size: 1.2rem;
+  line-height: 1.5 !important;
+}
+
+
+@media (max-width: 480px) {
+  .me {
+    display: none;
+  }
+}
+
+@media (min-width: 480px) {
+  .me {
+    width: 70%;
+    padding: 10px;
+  }
+
+  .welcome {
+    display: flex;
+    align-items: center;
+  }
+}
