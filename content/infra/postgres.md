@@ -1,6 +1,7 @@
 ---
 permalink: infra/postgres
 date: 2023-09-01
+title: Postgres
 ---
 # PostgreSQL
 

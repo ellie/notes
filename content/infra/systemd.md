@@ -1,6 +1,7 @@
 ---
 permalink: infra/systemd
 date: 2023-09-01
+title: Systemd
 ---
 
 # Systemd

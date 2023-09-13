@@ -1,6 +1,7 @@
 ---
 permalink: infra/sqlite
 date: 2023-09-01
+title: SQLite
 ---
 # SQLite
 

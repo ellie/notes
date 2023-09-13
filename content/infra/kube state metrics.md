@@ -1,6 +1,7 @@
 ---
 permalink: infra/kube-state-metrics
 date: 2023-09-01
+title: Kube State Metrics
 ---
 # Kube State Metrics
 

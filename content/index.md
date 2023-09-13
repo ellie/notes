@@ -9,7 +9,7 @@ date: 0202-09-01
 
 # 👋  Welcome!
 
-My full name is Ellie Huxtable. I'm a software/infrastructure engineer, and am at my happiest when I'm building <i>something cool</i>. I love an adventure, and if I'm not at a computer there's a good chance I'm riding a motorcycle.
+My name is Ellie Huxtable. I'm a software/infrastructure engineer, and am at my happiest when I'm building <i>something cool</i>. I love an adventure, and if I'm not at a computer there's a good chance I'm riding a motorcycle.
 
 Here I am trying to maintain a personal wiki, or a <i>second brain</i>. I often explore many technologies or ideas, and then promptly completely forget them. I've found that writing my learnings and thoughts down is immensely helpful.
 
@@ -23,7 +23,7 @@ Here I am trying to maintain a personal wiki, or a <i>second brain</i>. I often 
 
 This site is constantly shifting, but here are some things you may be interested in
 - [Posts](/posts), a selection of my longer-form writing and thoughts
-- [Projects](/projects) - over the years I've built a lot of things, but the main two I'm known for are my [[ipod]] and [[atuin | Atuin]]. 
+- [Projects](/projects) - over the years I've built a lot of things, but the main two I'm known for are my [[ipod | iPod]] and [[atuin | Atuin]]. 
 - [Life](/life), where I'm writing about my travels, adventures, and life in general
 - I also keep some notes on [programming](/programming), [infra](/infra), and [tools](/tools). Have an explore!
 

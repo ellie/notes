@@ -1,6 +1,7 @@
 ---
 permalink: infra/alertmanager
 date: 2023-09-01
+title: Alertmanager
 ---
 # Alertmanager
 

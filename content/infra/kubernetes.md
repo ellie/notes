@@ -1,6 +1,7 @@
 ---
 permalink: infra/kubernetes
 date: 2023-09-01
+title: Kubernetes
 ---
 # Kubernetes
 

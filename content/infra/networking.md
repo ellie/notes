@@ -1,6 +1,7 @@
 ---
 permalink: infra/networking
 date: 2023-09-01
+title: Networking
 ---
 # Networking
 
