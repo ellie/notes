@@ -1,6 +1,6 @@
 ---
 title: Ellie's Notes
-date: 0202-09-01
+date: 2023-09-01
 ---
 
 <div class="welcome">
