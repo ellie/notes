@@ -2,6 +2,9 @@
 permalink: notes/scaling-kube-state-metrics
 title: Scaling Kube State Metrics
 date: 2023-09-01
+tags:
+  - kubernetes
+  - infra
 ---
 With larger clusters, you might find that scrapes begin to take time - [[notes/kube state metrics|kube state metrics]] might be exposing millions of samples, depending on how many nodes/pods/etc you have!
 
