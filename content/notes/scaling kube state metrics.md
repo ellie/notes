@@ -1,15 +1,8 @@
 ---
-permalink: infra/kube-state-metrics
-date: 2023-09-01
-title: Kube State Metrics
+permalink: notes/scaling-kube-state-metrics
+title: Scaling Kube State Metrics
 ---
-# Kube State Metrics
-
-Kube state metrics exposes kubernetes metrics in a way that they can be scraped by prometheus. It uses the kubernetes API to create a snapshot of the state of your cluster, and then exposes that on `/metrics`, ready to be ingested by your monitoring.
-
-### Scaling
-
-With larger clusters, you might find that scrapes begin to take time - ksm might be exposing millions of samples, depending on how many nodes/pods/etc you have!
+With larger clusters, you might find that scrapes begin to take time - [[notes/kube state metrics|kube state metrics]] might be exposing millions of samples, depending on how many nodes/pods/etc you have!
 
 KSM supports sharding, both [automatically](https://github.com/kubernetes/kube-state-metrics#automated-sharding) and manually. Unfortunately the autosharding is still very much in development
 

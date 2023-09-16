@@ -1,8 +1,7 @@
 ---
-permalink: tools/jq
+permalink: notes/jq-snippets
 date: 2023-09-01
-tags:
-  - tool
+title: jq snippets
 ---
 # jq
 

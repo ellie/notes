@@ -1,9 +1,8 @@
 ---
-permalink: programming/exporting-prometheus-metrics-with-axum
+permalink: notes/exporting-prometheus-metrics-with-axum
 draft: false
 tags:
   - rust
-  - til
 date: 2023-09-13
 title: Exporting Prometheus metrics with Axum
 ---

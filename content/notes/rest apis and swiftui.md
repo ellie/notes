@@ -1,6 +1,6 @@
 ---
 date: 2020-02-23
-permalink: programming/rest-apis-and-swiftui
+permalink: notes/rest-apis-and-swiftui
 tags:
   - swift
 title: Rest APIs and SwiftUI

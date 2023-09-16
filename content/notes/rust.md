@@ -1,11 +1,12 @@
 ---
-permalink: programming/rust
+permalink: notes/rust
 tags:
   - rust
   - evergreen
 title: Rust
 date: 2023-09-01
 ---
+My Rust reference page
 ## Projects
 - [[atuin | Atuin]]
 ## Cargo
@@ -41,3 +42,6 @@ Usage:
 ```rust
 const SHA: &str = env!("GIT_HASH");
 ```
+
+# links
+- [a leaky bucket rate limiter](https://github.com/udoprog/leaky-bucket)

@@ -1,11 +1,10 @@
 ---
-permalink: tools/git
+permalink: notes/git-snippets
 date: 2023-09-01
 tags:
-  - tool
+  - tools
+title: Git snippets
 ---
-# Git
-
 ## Remove untracked files
 ```
 git clean -fdx

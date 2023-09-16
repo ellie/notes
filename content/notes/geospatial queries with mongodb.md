@@ -1,10 +1,9 @@
 ---
 title: Geospatial queries with MongoDB
 date: 2019-07-25
-permalink: programming/geospatial-queries-with-mongodb
+permalink: notes/geospatial-queries-with-mongodb
 tags:
   - python
-  - til
 ---
 I'm currently playing with MongoDB and its [geospatial queries](https://docs.mongodb.com/manual/geospatial-queries/?ref=ellie.wtf). It’s pretty interesting so far, so I just thought I'd write something up to show how I'm using it with PyMongo!
 

@@ -1,11 +1,12 @@
 ---
-permalink: programming/python
+permalink: notes/python
+date: 2023-09-01
+title: Python
 tags:
   - python
-  - evergreen
-title: Python
-date: 2023-09-01
 ---
+My Python reference page
+
 I don't spend as much time building actual large projects in Python any more (though I was paid to write Python for a few years in my early career). These days it's mostly just for random glue scripts on a variety of systems. 
 
 ### Quick s3 client
@@ -31,3 +32,4 @@ def chunks(lst, n):
 ```
 
 From [StackOverflow](https://stackoverflow.com/questions/312443/how-do-i-split-a-list-into-equally-sized-chunks)
+

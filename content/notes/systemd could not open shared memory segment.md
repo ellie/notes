@@ -1,20 +1,19 @@
 ---
-permalink: infra/systemd
+permalink: notes/systemd-could-not-open-shared-memory-segment
 date: 2023-09-01
-title: Systemd
+tags:
+  - systemd
+  - linux
+  - postgresql
+title: Systemd could not open shared memory segment
 ---
+I spent a while operating [[postgresql | PostgreSQL]] running on an EC2 instance. We had a weird problem where sometimes queries would fail, with the error
 
-# Systemd
+>  `could not open shared memory segment "/PostgreSQL.271741757"`.
 
-Just some issues I have had with it
+For non-system (UID < 1000) users, `logind` will by default clear shared mem files upon logout. For things like databases, this is not at all desireable. One thing to note is that it's unlikely for this to happen if you never login as the database user.
 
-## /dev/shm clearing
-
-This can also be seen by logs such as `could not open shared memory segment "/PostgreSQL.271741757"`.
-
-For non-system (UID < 1000) users, `logind` will by default clear shared mem files upon logout. For things like databases, this is not at all desireable.
-
-Setting `RemoveIPC=no` in `/etc/systemd/logind.conf` should resolve this.
+Setting `RemoveIPC=no` in `/etc/systemd/logind.conf` should resolve this. In theory, you can restart logind while the system is running. I did some tests, but I think it's still probably safest to reboot the system.
 
 Man page
 

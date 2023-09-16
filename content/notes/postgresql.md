@@ -1,9 +1,10 @@
 ---
-permalink: infra/postgres
+permalink: notes/postgresql
 date: 2023-09-01
-title: Postgres
+title: PostgreSQL
 ---
-# PostgreSQL
+
+Some postgres snippets! Just a reference page for the things I forget a lot.
 
 - `pg_ctl init -D path` - init new database + config at `path`
 - `pg_hba.conf` - configure host based auth

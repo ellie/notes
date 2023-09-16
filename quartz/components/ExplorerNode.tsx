@@ -7,6 +7,7 @@ export interface Options {
   folderDefaultState: "collapsed" | "open"
   folderClickBehavior: "collapse" | "link"
   useSavedState: boolean
+  hidden?: [string]
 }
 
 type DataWrapper = {
