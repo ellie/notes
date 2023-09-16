@@ -2,6 +2,9 @@
 permalink: notes/postgresql
 date: 2023-09-01
 title: PostgreSQL
+tags:
+  - postgresql
+  - infra
 ---
 
 Some postgres snippets! Just a reference page for the things I forget a lot.

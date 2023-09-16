@@ -22,7 +22,7 @@ This site is constantly shifting, but here are some things you may be interested
 - [Posts](/posts), a selection of my longer-form writing and thoughts
 - [Projects](/projects) - over the years I've built a lot of things, but the main two I'm known for are my [[ipod | iPod]] and [[atuin | Atuin]]. 
 - [Life](/life), where I'm writing about my travels, adventures, and life in general
-- I also keep some notes on [programming](/programming), [infra](/infra), and [tools](/tools). Have an explore!
+- I also keep some [notes](/notes) on a variety of topics! It may be easier to browse those by tag.
 
 ## Speaking
 I gave my first talk at [FOSDEM in 2023](https://www.youtube.com/watch?v=uyRmV19qJ2o), and am looking forward to giving more in the future!

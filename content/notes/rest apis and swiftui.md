@@ -33,7 +33,7 @@ Actually no. There's something called an [ObservableObject](https://developer.ap
 
 An example will probably illustrate this more effectively
 
-```
+```swift
 struct User: ObservableObject {
     @Published var username: String
     @Published var name: String
