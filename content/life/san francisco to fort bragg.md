@@ -54,4 +54,4 @@ The last hour or so was all rain, but I wasn't too bothered about it. Today I ro
 
 ![](https://img.ellie.wtf/i/73f146707109be7b378e5a337a30404ff864ee7c3bca7913553ba11d754d07ea.jpeg)
 
-Thank you to Michelle for her fantastic hospitality while I've been here, letting me borrow her bike, and for taking me on this trip 💖
+Thank you to Michelle for her fantastic hospitality while I've been here, letting me borrow her bike, and for taking me on this trip
