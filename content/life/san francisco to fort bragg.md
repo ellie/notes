@@ -4,10 +4,10 @@ date: 2023-09-25
 tags:
   - usa
   - wc23
-cover: https://img.ellie.wtf/i/44ef0a6f44d420ec5f6a206fa5b13fbe0f8cf78a0b0a299b3a5793b3ff7cb5f6.jpg
+cover: https://img.ellie.wtf/i/4bcd4bd7f48f92b49ea0008f192aa8dd23921f2913e4694cb9a8a74e002841f3.jpg
 permalink: life/sf-to-ft-bragg
 ---
-![](https://img.ellie.wtf/i/44ef0a6f44d420ec5f6a206fa5b13fbe0f8cf78a0b0a299b3a5793b3ff7cb5f6.jpg)
+![](https://img.ellie.wtf/i/4bcd4bd7f48f92b49ea0008f192aa8dd23921f2913e4694cb9a8a74e002841f3.jpg)
 
 I've been in California for a few days now, staying with a friend in San Francisco. Today we left for the first day of a 6-day motorcycle trip! I've decided I'm going to write more on my own website, whereas I used to post much more about my travels to instagram.
 
@@ -34,13 +34,13 @@ The last time I had ridden this route was in [[2022]], and I stopped at a cafe (
 
 I'd been wanting to stop to take a photo, so after a period of riding uphill we found a good opportunity for a photo! It was so incredibly quiet that stopping in the middle of the road wasn't a problem.
 
-![](https://img.ellie.wtf/i/f96d509bcf67d608ae0a1ca815cfb52f5c18fb7e65a9fedd1ddfae547ca1177e.jpg)
+![](https://img.ellie.wtf/i/bcf4a32d0f838e553340200a167b691f90c7abdc388ec25f1748e5cfacd69a7b.jpg)
 
 This road was probably the "wildest" part yet, and went through a lot of forest! Eventually it rejoined hw 1, which we stayed on for a while before heading off onto Skaggs Springs Road. I'm naming this one specifically, as it was definitely my favourite part of the day! There was a really nice bridge that made another nice photo spot, and afterwards the corners were very smooth and sweeping.
 
 After crashing in the UK a few weeks ago, the past 2 days have been the first time I've been back on a bike. Having such a nice stretch of road really helped me feel more confident riding again
 
-![](https://img.ellie.wtf/i/91936c78f2958557f06934e212c0cfd3e192026d9c8cb695900fe25c52444778.jpg)
+![](https://img.ellie.wtf/i/b3b627fb48719681938985af3c8189ff16af6032b62baebf93eaef21d1c2c421.jpg)
 
 After Skaggs, we weren't too far from our stop for the day! The majority of the day had been absolutely amazing, so of course we were due some minor issues.
 
