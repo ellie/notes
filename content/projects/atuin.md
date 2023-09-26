@@ -4,6 +4,8 @@ title: Atuin, magical shell history
 tags:
   - rust
   - tool
+  - sqlite
+  - postgresql
 date: 2021-05-10
 ---
 
