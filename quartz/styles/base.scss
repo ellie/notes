@@ -328,6 +328,7 @@ pre {
 
   &:has(> code.mermaid) {
     border: none;
+    position: relative;
   }
 
   & > code {
@@ -446,7 +447,7 @@ video {
 
 ul.overflow,
 ol.overflow {
-  max-height: 300;
+  max-height: 400;
   overflow-y: auto;
 
   // clearfix
