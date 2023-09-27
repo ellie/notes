@@ -10,11 +10,11 @@ date: 2023-09-26
 
 Carrying on from [[san francisco to fort bragg | yesterday]], we woke up early and got ready to ride the stretch up to Weaverville. The view from the hotel this morning was absolutely stunning - the fog was slowly burning off as the sun was brightening up, and the valley was echoing with seal calls. They were less atmospheric at 3am last night, though.
 
-I've entirely shaken off the jet lag at this point, and slept through the 06:30 without any major difficulties 🥳 It only took two nights to get used to the new timezone, so not bad!
+I've entirely shaken off the jet lag at this point, and slept through to 06:30 without any major difficulties 🥳 It only took two nights to get used to the new timezone, so not bad!
 
 ![](https://img.ellie.wtf/i/33da2adfba0dd3bd0ec0023caa9c3c84770166f4beb0ecc7b368a08362fb6cda.jpeg)
 
-Despite my best efforts, my gear was still very soggy from the night before - and the tiny hotel hair dryer didn’t so much to help. Luckily later in the day was nice and sunny so it dried out pretty fast
+Despite my best efforts, my gear was still very soggy from being caught in the rain last night - and the tiny hotel hair dryer didn’t do much to help. Luckily later in the day was nice and sunny so it dried out pretty fast
 
 We stopped for breakfast at a cute coffee shop - I had waffles 😋 There was an awful lot of fog this morning, and at times I couldn’t see far at all. It only really abated when we turned inland and started to head away from the coast
 
@@ -23,7 +23,7 @@ We stopped for breakfast at a cute coffee shop - I had waffles 😋 There was an
 
 After turning off, we spent a good while riding through forest. There was no fog, but it was dense enough and the road dirty enough that I was being super careful not to slide out. 
 
-Some of the redwoods are impressively large, though the biggest I saw was at a tourist spot. Turns out, in America, they even have drive-thru trees!
+Some of the redwoods are impressively large, the biggest I saw was at a tourist spot. Turns out, in America, they even have drive-thru trees!
 
 ![](https://img.ellie.wtf/i/b234bbf77cc36f6c63ce8855a8a24f6b59fce6fdc143670e680f90d7d368d407.jpeg)
 
@@ -50,12 +50,13 @@ The Airbnb we're staying in is a little outside of Weaverville, so it's peaceful
 ![](https://img.ellie.wtf/i/1d875369b4b02669a077439c778531937f996b5c769c8ebfa64ee515ebb810cc.jpg)
 
 We will be staying here and exploring for a few days, so picked up some groceries. Some learnings: 
-	- Hard cider is alcoholic, normal cider might not be but isn’t just apple juice?
-	- it’s pronounced VITE-A-MINS
-	- Everything is bigger than back home - other than the bread, which was tiny
-	- A whole section in the supermarket for cookie dough!
-	- During fire season you’re not even allowed an indoor fire in the stove 
-	- $10.99 for a tiny box of PG tips!!!! Before tax. I should start a business importing tea 
+
+- Hard cider is alcoholic, normal cider might not be but isn’t just apple juice?
+- it’s pronounced VITE-A-MINS
+- Everything is bigger than back home - other than the bread, which was tiny
+- A whole section in the supermarket for cookie dough!
+- During fire season you’re not even allowed an indoor fire in the stove 
+- $10.99 for a tiny box of PG tips!!!! Before tax. I should start a business importing tea 
 
 As the sun was going down, we walked down the road towards the river
 
