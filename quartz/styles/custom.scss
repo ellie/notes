@@ -4,6 +4,21 @@ article p, article li{
   line-height: 1.5 !important;
 }
 
+.tall-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.img-pair img {
+  display: inline-block;
+  width: 48%;
+}
+
+.img-pair img:nth-child(even) {
+  float: right;
+}
 
 @media (max-width: 480px) {
   .me {
@@ -22,3 +37,4 @@ article p, article li{
     align-items: center;
   }
 }
+
