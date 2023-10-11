@@ -113,7 +113,7 @@ Before doing more setup, I wanted to setup `kubectl` access from my laptop. Runn
 
 Once setup is fully complete I'll be setting up Tailscale (or maybe innernet) for access, but for now I'll just ssh port forward. You can get the kubeconfig via
 
-```
+```bash
 cat /etc/rancher/k3s/k3s.yaml
 ```
 
@@ -121,7 +121,7 @@ on one of the nodes.
 
 A quick
 
-```
+```bash
 ssh -L 6443:localhost:6443 root@a server ip
 ```
 
@@ -143,7 +143,7 @@ helm repo update hcloud
 
 You then need to set a k8s secret containing the hetzner cloud api token and network name (this is part of why I wanted to make sure secrets were encrypted at rest)
 
-```
+```bash
 kubectl -n kube-system create secret generic hcloud --from-literal=token=SOME SECRET --from-literal=network=NETWORK NAME
 ```
 
@@ -153,19 +153,19 @@ helm install hccm hcloud/hcloud-cloud-controller-manager -n kube-system --set ne
 
 Do note the setting of the clusterCIDR. If you haven't changed the [k3s defaults](https://docs.k3s.io/cli/server#networking), 10.42.0.0/16 is good.
 
-```
+```bash
 kubectl logs -n kube-system deployment/hcloud-cloud-controller-manager
 ```
 
 Should now show some output, and
 
-```
+```bash
 kubectl describe node agent-1
 ```
 
 should show some extra info annotations:
 
-```
+```yaml
 node.kubernetes.io/instance-type=cax21
 topology.kubernetes.io/region=fsn1
 topology.kubernetes.io/zone=fsn1-dc14
@@ -187,7 +187,7 @@ curl -sfL https://get.k3s.io | sh -s - agent \
 
 You can setup as many of these as you'd like
 
-```
+```bash
 kubectl get nodes
 ```
 
