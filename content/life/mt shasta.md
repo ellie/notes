@@ -1,6 +1,6 @@
 ---
 title: Mt Shasta
-created: 2023-09-27
+date: 2023-09-27
 tags:
   - usa
   - wc23
