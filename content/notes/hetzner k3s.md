@@ -6,7 +6,6 @@ tags:
   - kubernetes
 cover: https://img.ellie.wtf/i/a9e030bb8d6d703c69f113f7ee1fd69096849a3d29d611334f7cd10e13c2a4d5.jpg
 ---
-
 I setup a HA k3s cluster for [[atuin | Atuin]] recently! 
 
 I'm using HA etcd, which means we need to run an odd number of "server" nodes, and obviously more than one of them. That makes 3 the minimum. 
@@ -69,7 +68,7 @@ Please note:
 > 
 > For most flags, you can just re-run the installer and it adjusts the config and restarts the node. For this flag in particular, if you miss it, you'll need to setup your cluster again. HCCM will only label nodes that were setup correctly from the very beginning, and unlabelled nodes won't work correctly with your LB.
 > 
-   Some background on this. Kubernetes has a bunch of CCMs (cloud controller managers) that basically integrate k8s nicely with a cloud provider. In order to install an external CCM, we currently need to set the aforementioned flag. However, this has been deprecated for quite some time. It was originally intended to be removed in v1.24, though this has not yet happened. 
+> Some background on this. Kubernetes has a bunch of CCMs (cloud controller managers) that basically integrate k8s nicely with a cloud provider. In order to install an external CCM, we currently need to set the aforementioned flag. However, this has been deprecated for quite some time. It was originally intended to be removed in v1.24, though this has not yet happened. 
 >   
 > My understanding is that currently kubelet is bundled with some CCMs, so this flag allows you to use a non-bundled CCM. The future plans are to no longer bundle CCMs, making this argument redundant (hence deprecation)
 >
