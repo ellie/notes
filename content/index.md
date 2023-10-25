@@ -36,7 +36,7 @@ Previously, I've worked at [Coinbase](https://coinbase.com), [Tracr](https://tra
 ## Contact
 Please do get in touch!
 
-Email: ellie @ \<this domain\><br>
+Email: ellie@elliehuxtable.com<br>
 GitHub: [@ellie](https://github.com/ellie)<br>
 Mastodon: [@ellie@hachyderm.io](https://hachyderm.io/@ellie)<br>
 Twitter: [@ellie_huxtable](https://twitter.com/ellie_huxtable)<br>
