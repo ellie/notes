@@ -69,7 +69,7 @@ nvme2n1     259:8    0 953.9G  0 disk
 Create the mirror
 
 ```bash
-zpool create postgres mirror /dev/nvme0n1 /dev/nvme3n1
+zpool create postgres mirror -o ashift=12 /dev/nvme0n1 /dev/nvme3n1
 ```
 
 It returned nice and fast!
