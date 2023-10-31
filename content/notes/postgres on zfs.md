@@ -3,7 +3,7 @@ date: 2023-10-31
 tags:
   - postgresql
   - zfs
-title: Running PostgeSQL on ZFS on baremetal
+title: Running bare metal PostgeSQL on ZFS
 ---
 
 I'm setting up new postgres servers for [[atuin | Atuin]]! We're going with a hot replica this time, and making things _much_ more reliable. Atuin has had no outages or database issues in a couple of years, but I don't want to push my luck.
