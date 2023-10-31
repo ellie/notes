@@ -125,7 +125,7 @@ systemctl start postgresql
 
 Then, stop postgres. Move its data to a temp location, create the datasets, and move things back again. Could probably rsync instead of mv/cp to keep permissions.
 
-```
+```bash
 systemctl stop postgresql
 
 # move postgres data to temp
@@ -180,7 +180,7 @@ I spend a while thinking about the optimal `recordsize`. While I'd get a higher 
 
 To begin with, I'll try 16k and see how it goes. We should get improved tps vs 128k, less write amplification, but better compression vs 8k.
 
-```
+```bash
 # enable compression
 zfs set compression=zstd-3 postgres
 
