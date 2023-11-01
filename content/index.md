@@ -20,7 +20,9 @@ Here I am trying to maintain a personal wiki, or a <i>second brain</i>. I've fou
 
 This site is constantly shifting, but here are some things you may be interested in
 - [Posts](/posts), a selection of my longer-form writing and thoughts
-- [Projects](/projects) - over the years I've built a lot of things, but the main two I'm known for are my [[ipod | iPod]] and [[atuin | Atuin]]. 
+- [Projects](/projects) - over the years I've built a lot of things, but the main two I'm known for are
+	- [Atuin](https://atuin.sh), the shell history search + sync tool
+	- [my iPod](/ipod), that I modified for much more storage + battery life
 - [Life](/life), where I'm writing about my travels, adventures, and life in general
 - [Notes](/notes), where I write about things I'm working on and exploring. They're not supposed to be as high-quality as a post, but I'll be publishing them much more often.
 
