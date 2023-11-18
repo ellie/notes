@@ -12,7 +12,7 @@ The documentation shows binding on whatever frontend you're already using, but I
 
 ```
 listen stats
-	bind :9000
+	bind *:9000
 	mode http
 	stats enable
 	stats uri /
