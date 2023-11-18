@@ -1,3 +1,11 @@
+---
+title: Exporting Prometheus metrics from HAProxy
+date: 2023-11-18
+tags:
+  - infra
+  - prometheus
+---
+
 I've recently started using haproxy after a lifetime of nginx, and I actually really like it! I needed to setup some metrics, when I discovered that haproxy supports prometheus out of the box - no exporter needed! 🥳
 
 The documentation shows binding on whatever frontend you're already using, but I wanted to make sure my metrics and stats were not visible to anyone outside of my network
