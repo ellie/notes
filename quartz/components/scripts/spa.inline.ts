@@ -1,5 +1,6 @@
 import micromorph from "micromorph"
 import { FullSlug, RelativeURL, getFullSlug } from "../../util/path"
+import { normalizeRelativeURLs } from "./popover.inline"
 
 // adapted from `micromorph`
 // https://github.com/natemoo-re/micromorph
@@ -16,6 +17,12 @@ const isLocalUrl = (href: string) => {
     }
   } catch (e) {}
   return false
+}
+
+const isSamePage = (url: URL): boolean => {
+  const sameOrigin = url.origin === window.location.origin
+  const samePath = url.pathname === window.location.pathname
+  return sameOrigin && samePath
 }
 
 const getOpts = ({ target }: Event): { url: URL; scroll?: boolean } | undefined => {
@@ -38,7 +45,14 @@ let p: DOMParser
 async function navigate(url: URL, isBack: boolean = false) {
   p = p || new DOMParser()
   const contents = await fetch(`${url}`)
-    .then((res) => res.text())
+    .then((res) => {
+      const contentType = res.headers.get("content-type")
+      if (contentType?.startsWith("text/html")) {
+        return res.text()
+      } else {
+        window.location.assign(url)
+      }
+    })
     .catch(() => {
       window.location.assign(url)
     })
@@ -46,6 +60,8 @@ async function navigate(url: URL, isBack: boolean = false) {
   if (!contents) return
 
   const html = p.parseFromString(contents, "text/html")
+  normalizeRelativeURLs(html, url)
+
   let title = html.querySelector("title")?.textContent
   if (title) {
     document.title = title
@@ -93,8 +109,17 @@ function createRouter() {
   if (typeof window !== "undefined") {
     window.addEventListener("click", async (event) => {
       const { url } = getOpts(event) ?? {}
+      // dont hijack behaviour, just let browser act normally
       if (!url || event.ctrlKey || event.metaKey) return
       event.preventDefault()
+
+      if (isSamePage(url) && url.hash) {
+        const el = document.getElementById(decodeURIComponent(url.hash.substring(1)))
+        el?.scrollIntoView()
+        history.pushState({}, "", url)
+        return
+      }
+
       try {
         navigate(url, false)
       } catch (e) {
@@ -140,6 +165,7 @@ if (!customElements.get("route-announcer")) {
     style:
       "position: absolute; left: 0; top: 0; clip: rect(0 0 0 0); clip-path: inset(50%); overflow: hidden; white-space: nowrap; width: 1px; height: 1px",
   }
+
   customElements.define(
     "route-announcer",
     class RouteAnnouncer extends HTMLElement {
