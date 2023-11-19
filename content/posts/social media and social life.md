@@ -54,7 +54,9 @@ After a while, I uninstalled the Instagram app entirely. I didn't delete my acco
 
 I think the lack of polish on mobile (vs the apps) is just about jarring enough that I don't waste any time at all! I've actually found it interesting how the UI being "smooth" keeps me absorbed, but if it's jerkier/less native the likelihood of me becoming too absorbed decreases dramatically. It's usually the case that after a couple of minutes I just think "wow, there really isn't a lot here huh" and close the page.
 
-## Twitter
+I mentioned above, but [Beeper](https://www.beeper.com/) has really helped here. I can continue to message people who prefer staying in touch via Instagram, without actually having it installed on my phone.
+
+## Twitter / X
 
 I've kept Twitter for now. Much as I'm not a big fan of the platform, I still maintain connections with a bunch of people there, and it has been useful for my work. I'd like to see that change, but for now it is still the case.
 
