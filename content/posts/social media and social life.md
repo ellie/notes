@@ -86,5 +86,3 @@ I no longer reach for my phone at the first sign of boredom or "empty time", ins
 
 In an ideal world, tech wouldn't have such a grip on our lives. But there's certainly compromises we can make, without having to go all out and delete everything.
 
-Who knows - maybe in a few months I'll publish something titled "deleting it all".
-
