@@ -1,5 +1,5 @@
 ---
-title: Fixing a broken internet connection after upgrading to macOS 14 Sonoma
+title: Upgrading to macOS 14 Sonoma broke my network connection
 date: 2023-11-27
 ---
 I upgraded my mac to macOS 14, Sonoma earlier today. Upon first using it, my internet wouldn't connect!
