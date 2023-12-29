@@ -79,7 +79,7 @@ and ensuring all files were created OK, I setup my crontab
 0 14 1 * * /home/mastodon/backup.sh monthly
 ```
 
-There's some duplicate work, but that's not a huge concern here. I've scheduled them during "awake" hours for me, as I also set it up to ping me on Telegram when the backup completes.
+There's some duplicate work, but that's not a huge concern here. I've scheduled them during waking hours for me, as I also set it up to ping me on Telegram when the backup completes.
 
 ## Improvements
 
