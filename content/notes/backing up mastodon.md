@@ -9,11 +9,11 @@ tags:
 ---
 I'm the administrator of https://bikers.social, a mastodon instance for bikers 🏍️
 
+Postgres is the most important part of an instance backup. If you lose your db, it's game over. My secrets are also backed up.
+
 My old mastodon backup policy consisted of regular `pg_dumps`, and `scp` to another machine. This was totally good enough, as that machine was _also_ backed up to my local NAS. I did have to semi-regularly manually clean up old backups though, and now that the instance has been going a while it would be great to have something better.
 
 I've recently revamped it a bit to use Cloudflare R2.
-
-Postgres is the most important part of an instance backup. If you lose your db, it's game over. My secrets are also backed up.
 ## R2
 
 I use R2 for all of the instance's assets. It's much cheaper than S3 for storage, and also has no egress fees! I'd be a bit too concerned about surprise bandwidth bills with S3.
