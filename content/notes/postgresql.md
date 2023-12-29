@@ -6,7 +6,6 @@ tags:
   - postgresql
   - infra
 ---
-
 Some postgres snippets! Just a reference page for the things I forget a lot.
 
 - `pg_ctl init -D path` - init new database + config at `path`

@@ -5,7 +5,7 @@ tags:
   - tailscale
 date: 2023-11-03
 ---
-Following on with my [[postgres on zfs]] setup, I needed to configure the auth so that my replica could securely connect to the primary.
+Following on with my [[postgres on zfs]] setup, I needed to configure the auth so that my [[postgresql | PostgreSQL]] replica could securely connect to the primary.
 
 The constraints here are that I'm not using a cloud private network, so need a VPN of some kind! I'm using [Tailscale](https://tailscale.com), which is pretty much just wireguard made easy.
 
