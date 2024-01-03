@@ -5,6 +5,7 @@ title: PostgreSQL
 tags:
   - postgresql
   - infra
+updated: 03/01/2024
 ---
 Some postgres snippets! Just a reference page for the things I forget a lot.
 
@@ -24,41 +25,45 @@ Some postgres snippets! Just a reference page for the things I forget a lot.
 - `\c dbname` connect to database as current user
 
 ### Create table as copy of another
-```
+```sql
 create table new_table as table old_table;
 ```
 Note: this will copy all data, but no indices or constraints
 
 For no data
 
-```
+```sql
 create table new_table as table old_table with no data;
 ```
 
 If you'd like to query/filter it:
 
-```
+```sql
 create table new_table as (select * from old_table where some_condition);
 ```
 
 ### Check for waiting locks
-```
+```sql
 select relation::regclass, * from pg_locks where not granted;
 ```
 
 ### Get database size
 
-```
+```sql
 SELECT pg_size_pretty(pg_database_size('database name'));
 ```
 
+### Get table size
+```sql
+SELECT pg_size_pretty(pg_relation_size('records'));
+```
 ### Monitoring replication slots
 ```
 SELECT * FROM pg_replication_slots;
 ```
 
 ### Monitoring replication lag
-```
+```sql
 SELECT extract(epoch from now() - pg_last_xact_replay_timestamp()) AS replica_lag
 ```
 
