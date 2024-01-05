@@ -11,7 +11,7 @@ const config: QuartzConfig = {
     },
     baseUrl: "ellie.wtf",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    defaultDateType: "created",
     theme: {
       typography: {
         header: "Schibsted Grotesk",
