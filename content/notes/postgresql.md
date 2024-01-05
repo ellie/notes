@@ -67,6 +67,9 @@ SELECT * FROM pg_replication_slots;
 SELECT extract(epoch from now() - pg_last_xact_replay_timestamp()) AS replica_lag
 ```
 
-
+### Dump database schema only
+```bash
+pg_dump --schema-only databasename
+```
 ## Useful tools
 - [WAL streaming and backup via object storage](https://github.com/wal-g/wal-g)
