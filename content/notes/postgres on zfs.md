@@ -6,7 +6,6 @@ tags:
 title: Running bare metal PostgreSQL on ZFS
 cover: https://img.ellie.wtf/i/74b97825c93824bf34b2fac6982d43a51ea62914ce9c8f8f7e3459b2ba78cd4b.png
 ---
-
 I'm setting up new [[postgresql | postgres]] servers for [[atuin | Atuin]]! We're going with a hot replica this time, and making things _much_ more reliable. Atuin has had no outages or database issues in a couple of years, but I don't want to push my luck.
 
 You might also be interested in the [[hetzner k3s]] setup I did for the Atuin api images

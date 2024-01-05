@@ -5,7 +5,7 @@ title: PostgreSQL
 tags:
   - postgresql
   - infra
-updated: 03/01/2024
+updated: 2024/01/05 21:25
 ---
 Some postgres snippets! Just a reference page for the things I forget a lot.
 
