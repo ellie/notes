@@ -16,6 +16,7 @@ Some postgres snippets! Just a reference page for the things I forget a lot.
 
 ## Learnings
 - It's faster to create a table with no index, copy data in, then add indices
+- Using `random_page_cost=1.1` for SSD backed databases works much better
 
 ## Snippets
 
