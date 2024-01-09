@@ -48,9 +48,9 @@ Some of my [projects](/projects) have been featured in print, in blogs, and in p
 
 ## Work
 
-I currently lead the infrastructure team at [PostHog](https://posthog.com/?ref=ellie.wtf), regularly working with Kubernetes and Terraform. 
+I'm currently building my open source project [Atuin](https://atuin.sh), which you can read more about [here](https://ellie.wtf/posts/i-quit-my-job-to-work-full-time-on-my-open-source-project).
 
-Previously, I've worked at [Coinbase](https://coinbase.com), [Tracr](https://tracr.com) and [Arachnys](https://arachnys.com). You can stalk my [Linkedin](https://linkedin.com/in/elliehuxtable) if you really want to.
+Previously, I lead the infrastructure team at [PostHog](https://posthog.com/?ref=ellie.wtf), worked at [Coinbase](https://coinbase.com), [Tracr](https://tracr.com) and [Arachnys](https://arachnys.com). You can stalk my [Linkedin](https://linkedin.com/in/elliehuxtable) if you really want to.
 
 ## Contact
 Please do get in touch!
