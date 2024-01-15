@@ -30,6 +30,10 @@ export default (() => {
         <meta name="generator" content="Quartz" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="alternate" type="application/rss+xml" 
+          title="RSS Feed for Ellie's Notes" 
+          href="/index.xml" />
+
 
         {/* I could totally edit the below loop, but I'd rather keep my changes localized to make for easier rebasing on updates */}
         <link
