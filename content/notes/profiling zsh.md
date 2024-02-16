@@ -13,7 +13,7 @@ Recently I've been messing with the `atuin init` command - this is ran at shell 
 What I did:
 
 1. Whack `zmodload zsh/zprof` at the top of my `.zshrc`
-2. `zprod` at the bottom of the same file
+2. `zprof` at the bottom of the same file
 
 Upon opening a new shell, I get a nice table showing where zsh is spending time
 
