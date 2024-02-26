@@ -1,6 +1,8 @@
 ---
 title: Ignore a folder with ripgrep
 date: 2024-02-26
+tags:
+  - shell
 ---
 Recently I've had the need to ignore a folder while searching with ripgrep. Normally `rg` will ignore anything specified by `.gitignore`, but I couldn't set that in this case.
 
