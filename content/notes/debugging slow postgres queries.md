@@ -33,3 +33,7 @@ log_statement = all/ddl/none
 # Log durations alongside statements
 log_duration = on
 ```
+
+In previous jobs, I've found [pganalyze](http://pganalyze.com/) to be fantastic for analysing postgres performance. It does require a few extra setup steps, and is not free. If you're relying on postgres heavily I'd really recommend it!
+
+Otherwise, my favourite resource for postgres config options is [postgresqlco.nf](https://postgresqlco.nf/) - it's nice for browsing the available options, and handily displays which will require a restart.
