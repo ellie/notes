@@ -32,4 +32,5 @@ Date:   Sat May 25 09:51:56 2024 +0100
 
 ```
 
-> [!question] I thought it might also be cool to have [Atuin](https://atuin.sh) track git branches, alongside everything else. Maybe a custom data column?
+> [!question] 
+> I thought it might also be cool to have [Atuin](https://atuin.sh) track git branches, alongside everything else. Maybe a custom data column?
