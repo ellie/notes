@@ -4,7 +4,6 @@
 
 html {
   scroll-behavior: smooth;
-  -webkit-text-size-adjust: none;
   text-size-adjust: none;
   overflow-x: hidden;
   width: 100vw;
@@ -27,7 +26,7 @@ section {
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--tertiary) 75%, transparent);
+  background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0));
   color: var(--darkgray);
 }
 
@@ -54,12 +53,15 @@ ul,
   }
 }
 
+strong {
+  font-weight: $semiBoldWeight;
+}
+
 a {
-  font-weight: 600;
+  font-weight: $semiBoldWeight;
   text-decoration: none;
   transition: color 0.2s ease;
   color: var(--secondary);
-  display: inline-block;
 
   &:hover {
     color: var(--tertiary) !important;
@@ -76,6 +78,11 @@ a {
       background-color: none;
       border-radius: 0;
       padding: 0;
+    }
+    &.tag-link {
+      &::before {
+        content: "#";
+      }
     }
   }
 
@@ -173,9 +180,11 @@ a {
 
     & .sidebar.right {
       right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
+      flex-wrap: wrap;
       & > * {
         @media all and (max-width: $fullPageWidth) {
           flex: 1;
+          min-width: 140px;
         }
       }
     }
@@ -259,11 +268,9 @@ thead {
   font-weight: revert;
   margin-bottom: 0;
 
-  article > & > a {
+  article > & > a[role="anchor"] {
     color: var(--dark);
-    &.internal {
-      background-color: transparent;
-    }
+    background-color: transparent;
   }
 }
 
@@ -278,7 +285,6 @@ h6 {
     opacity: 0;
     transition: opacity 0.2s ease;
     transform: translateY(-0.1rem);
-    display: inline-block;
     font-family: var(--codeFont);
     user-select: none;
   }
@@ -357,6 +363,7 @@ pre {
     counter-increment: line 0;
     display: grid;
     padding: 0.5rem 0;
+    overflow-x: scroll;
 
     & [data-highlighted-chars] {
       background-color: var(--highlight);
@@ -505,4 +512,9 @@ ol.overflow {
   ul {
     padding-left: 1rem;
   }
+}
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
 }

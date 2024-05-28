@@ -43,18 +43,18 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options> | und
             let published: MaybeDate = undefined
 
             const fp = file.data.filePath!
-            const fullFp = path.posix.join(file.cwd, fp)
+            const fullFp = path.isAbsolute(fp) ? fp : path.posix.join(file.cwd, fp)
             for (const source of opts.priority) {
               if (source === "filesystem") {
                 const st = await fs.promises.stat(fullFp)
                 created ||= st.birthtimeMs
                 modified ||= st.mtimeMs
               } else if (source === "frontmatter" && file.data.frontmatter) {
-                created ||= file.data.frontmatter.date
-                modified ||= file.data.frontmatter.lastmod
-                modified ||= file.data.frontmatter.updated
-                modified ||= file.data.frontmatter["last-modified"]
-                published ||= file.data.frontmatter.publishDate
+                created ||= file.data.frontmatter.date as MaybeDate
+                modified ||= file.data.frontmatter.lastmod as MaybeDate
+                modified ||= file.data.frontmatter.updated as MaybeDate
+                modified ||= file.data.frontmatter["last-modified"] as MaybeDate
+                published ||= file.data.frontmatter.publishDate as MaybeDate
               } else if (source === "git") {
                 if (!repo) {
                   // Get a reference to the main git repo.
