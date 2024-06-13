@@ -2,6 +2,9 @@
 title: HDZero Freestyle V2 VTX with my Pavo25 V2
 date: 2024-06-13
 description: Setting up the HDZero Freestyle V2 with my Pavo25 V2
+tags:
+  - drone
+  - fpv
 ---
 Recently I've been playing around with FPV drones - I now have a Pavo25 V2. I had an old set of DJI goggles lying around, but the latency/buffering just didn't work for me. I was set on HDZero.
 
