@@ -3,6 +3,7 @@ title: Get the first day of the week with JavaScript
 tags:
   - javascript
   - web
+date: 2024-06-18
 ---
 I'm currently building a calendar data display for [Atuin](https://atuin.sh), and wanted to ensure that the week started with the correct day.
 
