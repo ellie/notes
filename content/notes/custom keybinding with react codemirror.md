@@ -8,7 +8,7 @@ I'm currently using uiwjs/react-codemirror for a project, and needed to add a cu
 The documentation didn't quite show what I needed, but with the following you can bind custom keys
 
 ```js
-`import React from 'react'; 
+import React from 'react'; 
 import CodeMirror from '@uiw/react-codemirror'; 
 import { keymap } from '@codemirror/view'; 
 import { defaultKeymap } from '@codemirror/commands'; 
@@ -34,7 +34,7 @@ const MyCodeEditor = () => {
 	); 
 }; 
 
-export default MyCodeEditor;`
+export default MyCodeEditor;
 ```
 
 Note that you may need to ensure your keymap extension is listed _before_ other extensions, otherwise it may be handled too soon.---
