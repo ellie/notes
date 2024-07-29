@@ -3,7 +3,7 @@ title: How to split a Git subdirectory into a new repo
 description: Splitting a git repo into two, while retaining all history
 date: 2024-07-29
 ---
-First, install [`git-filter-repo`](https://github.com/newren/git-filter-repo). This is a python script - the required functionality is not built-in to Git.
+First, install [`git-filter-repo`](https://github.com/newren/git-filter-repo). This is a python script, with no dependencies.
 
 It's easy to install. Just drop the script somewhere in your PATH. For me:
 
@@ -12,9 +12,9 @@ curl "https://raw.githubusercontent.com/newren/git-filter-repo/main/git-filter-r
 ```
 
 
-An important thing to note is that `git-filter-repo` will replace all other files in the repo with those in the subdir. It will not split the subdir into it's own directory. You should operate on a fresh copy of your repo to avoid losing data.
+An important thing to note is that `git-filter-repo` will replace all other files in the repo with those in the subdir. You should operate on a fresh copy of your repo to avoid losing data.
 
-Let's image our repo looks like the following
+Let's imagine our repo looks like the following
 
 ```bash
 🦄 ls -l
