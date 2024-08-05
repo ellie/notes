@@ -20,11 +20,10 @@ section {
 }
 
 .text-highlight {
-  background-color: #fff23688;
+  background-color: var(--textHighlight);
   padding: 0 0.1rem;
   border-radius: 5px;
 }
-
 ::selection {
   background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0));
   color: var(--darkgray);
@@ -43,8 +42,20 @@ ul,
 .math {
   color: var(--darkgray);
   fill: var(--darkgray);
-  overflow-wrap: anywhere;
   hyphens: auto;
+}
+
+p,
+ul,
+text,
+a,
+li,
+ol,
+ul,
+.katex,
+.math {
+  overflow-wrap: anywhere;
+  /* tr and td removed from list of selectors for overflow-wrap, allowing them to use default 'normal' property value */
 }
 
 .math {
@@ -190,11 +201,19 @@ a {
     }
   }
 
-  & .page-header {
+  & .page-header,
+  & .page-footer {
     width: $pageWidth;
-    margin: $topSpacing auto 0 auto;
+    margin-top: 1rem;
+
     @media all and (max-width: $fullPageWidth) {
       width: initial;
+    }
+  }
+
+  & .page-header {
+    margin: $topSpacing auto 0 auto;
+    @media all and (max-width: $fullPageWidth) {
       margin-top: 2rem;
     }
   }
@@ -479,6 +498,10 @@ video {
 
 .spacer {
   flex: 1 1 auto;
+}
+
+div:has(> .overflow) {
+  position: relative;
 }
 
 ul.overflow,
