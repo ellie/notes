@@ -1,0 +1,47 @@
+# I know this can just be _totally_ ignored by crawlers
+# But let's hope they behave well :)
+
+# Code: https://github.com/ellie/notes
+# Source: https://darkvisitors.com/
+
+# OpenAI, ChatGPT
+# https://platform.openai.com/docs/gptbot
+User-agent: GPTBot
+Disallow: /
+
+# Google AI (Bard, etc)
+# https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+User-agent: Google-Extended
+Disallow: /
+
+# Block common crawl
+# I have mixed feelings on this one, but many models are trained on this data
+# It is also used to bootstrap new search indices though
+# https://commoncrawl.org/ccbot
+User-agent: CCBot
+Disallow: /
+
+# Facebook
+# https://developers.facebook.com/docs/sharing/bot/
+User-agent: FacebookBot
+Disallow: /
+
+# Cohere.ai
+# https://darkvisitors.com/agents/cohere-ai
+User-agent: cohere-ai
+Disallow: /
+
+# Perplexity
+# https://docs.perplexity.ai/docs/perplexitybot
+User-agent: PerplexityBot
+Disallow: /
+
+# Anthropic
+# https://darkvisitors.com/agents/anthropic-ai
+User-agent: anthropic-ai
+Disallow: /
+
+# ...also anthropic
+# https://darkvisitors.com/agents/claudebot
+User-agent: ClaudeBot 
+Disallow: /
