@@ -26,6 +26,7 @@ This site is constantly shifting, but here are some things you may be interested
 	- [my iPod](/projects/ipod), that I modified for much more storage + battery life
 - [Life](/life), where I'm writing about my travels, adventures, and life in general
 - [Notes](/notes), where I write about things I'm working on and exploring. They're not supposed to be as high-quality as a post, but I'll be publishing them much more often.
+- [Motorcycles](/motorcycles) where I write things and make notes about my bikes
 
 ## Speaking
 
