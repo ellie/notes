@@ -12,7 +12,7 @@ Here you will find a mix of notes, longer/more thoughtful posts, and links to va
 
 </div>
 <div class="me">
-<img src="https://yeet.ellie.wtf/i/f449b641480701bb19587f55672ac7e5bc94847a2d6df66cb5565bc2843e68a2.jpg"/>
+<img src="https://yeet.ellie.wtf/i/2da5e1c479d6f6cafd364cd95db8c51ca9928dff8653abc09c29b3d53a2e6115.jpeg"/>
 </div>
 
 
